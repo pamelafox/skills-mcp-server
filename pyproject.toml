@@ -1,0 +1,11 @@
+[project]
+name = "skills-mcp-server"
+version = "0.1.0"
+description = "Local FastMCP server that serves agent skills"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp==4.2.0a4",
+]
+
+[tool.uv]
+prerelease = "allow"
